@@ -1,1 +1,1 @@
-Test-tweet via GitHub Actions (2).
+Test-tweet via GitHub Actions.
