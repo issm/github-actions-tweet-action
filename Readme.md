@@ -24,5 +24,5 @@ env:
   TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
   TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
 with:
-  tweet_file: ""
+  tweet_file: examples/tweets/latest.txt
 ```
