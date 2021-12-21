@@ -1,0 +1,17 @@
+name: 'Tweet Action'
+author: 'issm'
+description: 'Tweet'
+
+inputs:
+  file:
+    description: 'File which content to be tweeted'
+    required: true
+    default: 'tweets/latest.txt'
+
+outputs:
+  tweet_id:
+    description: 'Tweet ID'
+
+runs:
+  using: 'node12'
+  main: 'src/main.js'
