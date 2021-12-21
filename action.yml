@@ -3,7 +3,7 @@ author: 'issm'
 description: 'Tweet'
 
 inputs:
-  file:
+  tweet_file:
     description: 'File which content to be tweeted'
     required: true
     default: 'tweets/latest.txt'
