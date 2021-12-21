@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Tweet
-        uses: issm/github-actions-tweet-action
+        uses: issm/github-actions-tweet-action@master
         env:
           TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
           TWITTER_API_KEY_SECRET: ${{ secrets.TWITTER_API_KEY_SECRET }}
